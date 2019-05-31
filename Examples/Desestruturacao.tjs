@@ -1,0 +1,23 @@
+const usuario={
+    nome:'Jhony',
+    idade:23,
+    endereco:{
+        cidade:'João Pessoa',
+        estado:PB
+    }   
+};
+/*const nome = usuario.nome;
+const idade = usuario;
+const cidade = usuario.endereco.cidade;
+*/
+const{nome,idade,endereco:{nome,idade}}=usuario;
+
+console.log(nome);
+console.log(idade);
+console.log(cidade);
+
+function monstratNome({nome,idade}){
+    console.log(nome,idade);
+}
+
+monstratNome('teste');

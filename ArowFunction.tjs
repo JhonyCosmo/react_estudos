@@ -1,0 +1,26 @@
+const arr=[1,3,4,5,8,9];
+//Funcao anonima padrao
+const newArr1 = arr.map(function(item){
+    return item * 2;
+});
+//Arow function
+const newArr = arr.map(item => item * 2);
+
+
+console.log(newArr);
+//Constante com funcao
+const teste = () =>{
+    return 'teste';
+};
+//Array
+const teste1 = () =>{
+    return [1,2,3,4,5];
+};
+//Objeto
+const teste2 = () =>({nome:'Jhony'});
+
+console.log(teste());
+
+console.log(teste1());
+
+console.log(teste2());

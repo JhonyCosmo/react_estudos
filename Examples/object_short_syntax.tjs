@@ -1,0 +1,9 @@
+const nome='jhony';
+const idade=21;
+
+const usuario={
+    nome,
+    idade,
+    empresa:'Rocketseat'
+};
+console.log(usuario);

@@ -1,0 +1,12 @@
+import * as funcoes from './funcoes';
+//import soma, {sub} from './funcoes';
+//import { soma, sub } from './funcoes';
+//import somaFunction from './soma'; 
+//import { soma as somaFunction, sub } from './funcoes';
+//console.log(soma(1,5));
+//console.log(sub(4,5));
+
+console.log(funcoes);
+console.log(funcoes.default(1,1));
+console.log(funcoes.sub(1,1));
+console.log(funcoes.mult(1,1));
