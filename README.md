@@ -1,3 +1,3 @@
 # react_estudos
-A React study progect
+A React study project
 Jeans
