@@ -1,2 +1,2 @@
 # react_estudos
-A React study project
+A javascrip ES6 study project
