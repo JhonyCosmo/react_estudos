@@ -1,0 +1,29 @@
+const minhaPromisse = () =>new Promise((resolve,reject)=>{
+    setTimeout(()=>{resolve('OK')},2000);
+});    
+
+//yarn add @babel/plugin-transform-async-to-generator -D
+//yarn add @babel/polyfill -D
+//Tradidicional
+/*minhaPromisse()
+.then(response =>{
+    console.log(response);
+})
+.catch(err=>{
+    console.log()
+});*/
+
+//Usando async await
+/*async function executaPromisse(){
+    console.log(await minhaPromisse());
+    console.log(await minhaPromisse());
+    console.log(await minhaPromisse());
+}*/
+    
+const executaPromisse = async () => {
+    console.log(await minhaPromisse());
+    console.log(await minhaPromisse());
+    console.log(await minhaPromisse());
+};
+
+executaPromisse();
